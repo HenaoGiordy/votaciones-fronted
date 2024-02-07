@@ -1,0 +1,26 @@
+<div class="container">
+    <mat-card class="card" [style]="{'padding-bottom': '5%'}">
+        
+    <mat-card-title [style]="{'text-align' : 'center', 'margin-bottom' : '10%', 'font-size' : '30px', 'margin-top': '20px'}">Login</mat-card-title>
+        <mat-card-content class="card-content" [style]="{'display': 'flex', 'justify-content': 'center'}">
+
+            <form [style]="{ 'display': 'flex', 'justify-content' : 'center', 'flex-direction' : 'column', 'width': '60%'}">
+
+                <mat-form-field>
+                    <mat-label>Nombre</mat-label>
+                    <input matInput class="input">
+                </mat-form-field>
+
+                <mat-form-field>
+                    <mat-label>Password</mat-label>
+                    <input matInput class="input" type="password">
+                </mat-form-field>
+
+
+                <button mat-raised-button color="primary">Ingresar</button>
+            </form>
+
+
+        </mat-card-content>
+    </mat-card>
+</div>
