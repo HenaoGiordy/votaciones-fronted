@@ -13,10 +13,10 @@ export const routes: Routes = [
             },
             {
                 path: "candidatos", loadComponent : () => import('./core/admin/candidatos/candidatos.component')
-            },
+            },           
             {
                 path:"**", redirectTo:"dashboard", pathMatch: "full"
-            }
+            }       
         ]
     },
     {

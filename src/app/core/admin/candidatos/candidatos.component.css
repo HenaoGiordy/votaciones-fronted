@@ -1,0 +1,14 @@
+.container{
+  margin-top: 5%;
+}
+.tabla{
+  margin: 0 20% 0 20%;
+  
+}
+
+
+.acciones{
+  margin: 0 20% 1% 20%;
+  display: flex;
+  justify-content: space-between;
+}

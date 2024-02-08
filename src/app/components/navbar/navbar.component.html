@@ -1,19 +1,16 @@
-<p>
-  <mat-toolbar color="primary">
+  <mat-toolbar color="primary" class="navegacion">
+
     <button mat-icon-button >
       <mat-icon >menu</mat-icon>
     </button>
-    
-    <span class="example-spacer"></span>
+  
+    <ul class="navegacion-links">
+      <button mat-button routerLink="dashboard">DASHBOARD</button>
+      <button mat-button routerLink="candidatos">CANDIDATOS</button>
+    </ul>
 
-    <span>My App</span>
+    <button mat-icon-button routerLink="/">
+      <mat-icon>logout</mat-icon>
+    </button>
 
-    <span class="example-spacer"></span>
-    <button mat-icon-button>
-      <mat-icon>favorite</mat-icon>
-    </button>
-    <button mat-icon-button >
-      <mat-icon>share</mat-icon>
-    </button>
   </mat-toolbar>
-</p>
